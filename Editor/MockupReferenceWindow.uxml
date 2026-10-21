@@ -1,0 +1,31 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Style src="MockupReferenceWindow.uss" />
+    <ui:VisualElement name="root" class="mockup-window">
+        <ui:VisualElement class="mockup-toolbar">
+            <uie:ObjectField name="assetField" label="Image" class="mockup-asset-field" />
+            <ui:Button name="addSelectionButton" text="Add Selection" />
+            <ui:Button name="pingButton" text="Ping" />
+            <ui:Button name="clearButton" text="Clear" />
+        </ui:VisualElement>
+        <ui:VisualElement class="mockup-toolbar">
+            <uie:ObjectField name="folderField" label="Folder" class="mockup-asset-field" />
+            <ui:Button name="loadFolderButton" text="Load Folder" />
+        </ui:VisualElement>
+        <ui:VisualElement class="mockup-zoom-bar">
+            <ui:Button name="previousButton" text="Previous" />
+            <ui:Label name="positionLabel" text="0 / 0" class="mockup-position-label" />
+            <ui:Button name="nextButton" text="Next" />
+            <ui:Button name="fitButton" text="Fit" />
+            <ui:Button name="actualSizeButton" text="100%" />
+            <ui:Slider name="zoomSlider" label="Zoom" class="mockup-zoom-slider" />
+            <ui:Label name="zoomLabel" text="100%" class="mockup-zoom-label" />
+        </ui:VisualElement>
+        <ui:ScrollView name="previewScroll" class="mockup-preview-scroll">
+            <ui:VisualElement class="mockup-preview-surface">
+                <ui:Image name="mockupImage" class="mockup-image" />
+                <ui:Label name="emptyLabel" text="Assign an image, add selected Project images, or load a folder to view mockups here." class="mockup-empty" />
+            </ui:VisualElement>
+        </ui:ScrollView>
+        <ui:Label name="statusLabel" class="mockup-status" />
+    </ui:VisualElement>
+</ui:UXML>

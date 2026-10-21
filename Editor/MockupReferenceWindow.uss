@@ -1,0 +1,65 @@
+.mockup-window {
+    flex-grow: 1;
+}
+
+.mockup-toolbar,
+.mockup-zoom-bar {
+    flex-direction: row;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.mockup-asset-field,
+.mockup-zoom-slider {
+    flex-grow: 1;
+    min-width: 120px;
+}
+
+.mockup-toolbar > Button,
+.mockup-zoom-bar > Button {
+    margin-left: 4px;
+}
+
+.mockup-zoom-label {
+    width: 45px;
+    -unity-text-align: middle-right;
+}
+
+.mockup-position-label {
+    min-width: 42px;
+    -unity-text-align: middle-center;
+}
+
+.mockup-preview-scroll {
+    flex-grow: 1;
+    background-color: #252525;
+}
+
+.mockup-preview-surface {
+    min-width: 100%;
+    min-height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+
+.mockup-image {
+    flex-shrink: 0;
+}
+
+.mockup-empty {
+    color: #a8a8a8;
+    white-space: normal;
+    -unity-text-align: middle-center;
+}
+
+.mockup-status {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #b8b8b8;
+}

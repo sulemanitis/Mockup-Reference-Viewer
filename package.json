@@ -1,0 +1,13 @@
+{
+  "name": "com.mockupreference.editor",
+  "version": "1.0.0",
+  "displayName": "UI Mockup Reference",
+  "description": "A dockable Unity Editor window for viewing Texture2D and Sprite mockups while building UI.",
+  "unity": "2022.3",
+  "keywords": [
+    "editor",
+    "ui",
+    "mockup",
+    "reference"
+  ]
+}
