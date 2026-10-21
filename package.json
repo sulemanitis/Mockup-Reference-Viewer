@@ -4,6 +4,14 @@
   "displayName": "UI Mockup Reference",
   "description": "A dockable Unity Editor window for viewing Texture2D and Sprite mockups while building UI.",
   "unity": "2022.3",
+  "license": "GPL-2.0-only",
+  "author": {
+    "name": "Suleman",
+    "url": "https://github.com/sulemanitis"
+  },
+  "documentationUrl": "https://github.com/sulemanitis/Mockup-Reference-Viewer/blob/main/README.md",
+  "changelogUrl": "https://github.com/sulemanitis/Mockup-Reference-Viewer/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/sulemanitis/Mockup-Reference-Viewer/blob/main/LICENSE",
   "keywords": [
     "editor",
     "ui",
