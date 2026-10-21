@@ -70,4 +70,4 @@ See [CHANGELOG.md](CHANGELOG.md) for documented changes.
 
 ## License
 
-This project is distributed under the [GNU General Public License v2.0](LICENSE).
+This project is distributed under the [MIT License](LICENSE).
