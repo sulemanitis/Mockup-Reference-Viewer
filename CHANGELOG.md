@@ -2,6 +2,10 @@
 
 Notable changes to UI Mockup Reference are documented here.
 
+## [1.0.1] - 2026-10-21
+
+- Added Unity `.meta` files for the package license and changelog.
+
 ## [1.0.0] - Initial package version
 
 - Added a dockable Unity Editor window for viewing UI mockup references.
